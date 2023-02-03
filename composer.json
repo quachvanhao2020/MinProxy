@@ -1,0 +1,21 @@
+{
+    "name": "administrator/htdocs",
+    "require": {
+        "athlon1600/php-proxy": "^5.2",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "files": [
+        ]
+    },
+    "config": {
+        "process-timeout":0
+    },
+    "repositories": [
+
+    ],
+    "scripts": {
+        "serve": "php -S 0.0.0.0:80",
+        "test": "phpunit"
+    }
+}
